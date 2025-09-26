@@ -13,8 +13,8 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 </div>
 
 <div align="center">
-  <img src="hardware/resources/board_image.png" width="450px" alt="Product Image">
-  <p><em>[Insert product name or logo]</em></p>
+  <img src="./hardware/resources/unit_top_v_1_0_0_ue0107_ds3231_rtc_module.png" width="450px" alt="Product Image">
+  <p><em>DS3231 RTC Module</em></p>
 </div>
 
 ## Resources

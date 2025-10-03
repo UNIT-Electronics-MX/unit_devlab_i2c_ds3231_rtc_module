@@ -1,6 +1,7 @@
 
-# DS3231 Real-Time Clock Module
-## Overview
+# DevLab: I2C DS3231 RTC Module
+
+## Introduction
 
 DS3231 is a high-precision real-time clock (RTC) module that provides accurate timekeeping for embedded systems and microcontroller projects. It features a built-in temperature-compensated crystal oscillator (TCXO) to maintain precise time even in varying environmental conditions. The module communicates via the I2C interface, making it easy to integrate into a wide range of applications.
 
@@ -17,21 +18,33 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
   <p><em>DS3231 RTC Module</em></p>
 </div>
 
-## Resources
+<div align="center">
 
-| Resource | Link |
-|:--------:|:----:|
-| Schematic | [hardware/schematic.pdf](hardware/schematic.pdf) |
+### Quick Setup
 
-## key Features
 
-- INT Pin interrupt for alarms and square wave output
-- Battery backup input for continuous timekeeping
-- I2C interface for easy communication
-- Temperature-compensated crystal oscillator (TCXO) for high accuracy
-- Low power consumption
-- 32.768 kHz output for external timing applications
-- Supports multiple timekeeping formats (12/24 hour)
+[<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](#)
+[<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
+[<img src="https://img.shields.io/badge/Buy%20Now-orange?style=for-the-badge" alt="Buy Now">](https://uelectronics.com/)
+[<img src="https://img.shields.io/badge/Getting%20Started-purple?style=for-the-badge" alt="Getting Started">](#)
+
+</div>
+
+
+<div align="center">
+
+## Overview
+
+| Feature                                         | Description                                                                                  |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------|
+| INT Pin interrupt                              | Provides alarms and square wave output functionality                                         |
+| Battery backup input                           | Ensures continuous timekeeping during power loss                                             |
+| I2C interface                                  | Enables easy communication with microcontrollers and embedded systems                        |
+| Temperature-compensated crystal oscillator (TCXO) | Maintains high accuracy across varying environmental conditions                              |
+| Low power consumption                          | Suitable for battery-powered and energy-efficient applications                               |
+| 32.768 kHz output                              | Offers external timing signal for other devices                                              |
+| Multiple timekeeping formats                   | Supports both 12-hour and 24-hour timekeeping modes                                          |
+
 
 ## Typical Applications
 
@@ -43,20 +56,12 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 | Wearable Technology      | Keep track of time in wearable devices.             |
 | Consumer Electronics     | Used in devices like cameras and smart home systems. |
 
+## Resources
 
-## Getting Started
-
-1. Connect the module to your system using the I2C interface.
-2. Refer to the documentation for integration with your development environment.
-3. Explore example projects in the `/software/examples` directory.
-
-## Documentation
-
-- [Schematic Diagram](hardware/schematic.pdf)
-- [Board Dimensions (DXF)](docs/dimensions.dxf)
-- [Pinout Diagram](docs/pinout.png)
-- [Firmware Examples](firmware/)
-- [Getting Started Guide](docs/getting_started.md)
+- [Product Wiki](#)
+- [Datasheet](#)
+- [Buy Now](https://uelectronics.com/)
+- [Getting Started Guide](#)
 
 ## License
 
@@ -64,6 +69,6 @@ This product and its documentation are licensed under the MIT License.
 See [`LICENSE.md`](LICENSE.md) for details.
 
 <div align="center">
-  <sub>Template by UNIT Electronics • Customize this file for your product documentation.</sub>
+  <sub>Template by UNIT Electronics</sub>
 </div>
 

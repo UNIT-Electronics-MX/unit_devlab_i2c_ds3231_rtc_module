@@ -5,8 +5,10 @@ This directory contains example code and templates for various software modules.
 ## Contents
 
 - Sample usage of core modules
-- Integration patterns
+- Integration patterns  
 - Best practices for module interaction
+- Error handling examples
+- Configuration templates
 
 ## Example: Initializing a Module
 

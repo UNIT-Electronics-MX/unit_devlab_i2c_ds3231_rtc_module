@@ -31,7 +31,6 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 </div>
 
 
-<div align="center">
 
 ## Overview
 
@@ -45,7 +44,7 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 | 32.768 kHz output                              | Offers external timing signal for other devices                                              |
 | Multiple timekeeping formats                   | Supports both 12-hour and 24-hour timekeeping modes                                          |
 
-</div>
+
 
 ## Typical Applications
 

@@ -179,23 +179,44 @@
 <div align="center">
 <div align="center"><a href="../resources/unit_sch_v_1_0_0_ue0107_ds3231_rtc_module.pdf"><img src="../resources/Schematics_icon.jpg?raw=false" style="max-width: 500px; height: auto;" alt="Schematic"><br/> Schematic</a></div>
 </div>
+<h2 id="technical-specifications"><a class="header" href="#technical-specifications">Technical Specifications</a></h2>
+<h3 id="electrical-characteristics"><a class="header" href="#electrical-characteristics">Electrical Characteristics</a></h3>
+<div align="center">
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>Parameter</strong></th><th style="text-align: center"><strong>Description</strong></th><th style="text-align: center"><strong>Min</strong></th><th style="text-align: center"><strong>Typ</strong></th><th style="text-align: center"><strong>Max</strong></th><th style="text-align: center"><strong>Unit</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">Vcc</td><td style="text-align: center">Input voltage to power on the module</td><td style="text-align: center">2.3</td><td style="text-align: center">3.3</td><td style="text-align: center">5.5</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Vbat</td><td style="text-align: center">Battery Supply Voltage</td><td style="text-align: center">2.3</td><td style="text-align: center">3.0</td><td style="text-align: center">5.5</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Icc</td><td style="text-align: center">Supply current</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">300</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Ilo</td><td style="text-align: center">Output Leakage Current 32kHz, INT/SQW, SDA</td><td style="text-align: center">-1</td><td style="text-align: center">0</td><td style="text-align: center">+1</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Ili</td><td style="text-align: center">Input Leakage SCL</td><td style="text-align: center">-1</td><td style="text-align: center">-</td><td style="text-align: center">+1</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Iol</td><td style="text-align: center">RST Pin I/O Leakage</td><td style="text-align: center">-200</td><td style="text-align: center">-</td><td style="text-align: center">+10</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">Ibatlkg</td><td style="text-align: center">VBAT Leakage Current (VCC Active)</td><td style="text-align: center">-</td><td style="text-align: center">25</td><td style="text-align: center">100</td><td style="text-align: center">nA</td></tr>
+<tr><td style="text-align: center">Vol</td><td style="text-align: center">Logic 0 Output, 32kHz, INT/SQW, SDA</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">0.4V</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">Vol</td><td style="text-align: center">Logic 0 Output, RST</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">0.4V</td><td style="text-align: center">V</td></tr>
+<tr><td style="text-align: center">fout</td><td style="text-align: center">Output Frequency</td><td style="text-align: center">-</td><td style="text-align: center">32.768</td><td style="text-align: center">-</td><td style="text-align: center">kHz</td></tr>
+<tr><td style="text-align: center">Ibata</td><td style="text-align: center">Active Battery Current</td><td style="text-align: center">-</td><td style="text-align: center">-</td><td style="text-align: center">150</td><td style="text-align: center">uA</td></tr>
+<tr><td style="text-align: center">fscl</td><td style="text-align: center">SCL Clock Frequency</td><td style="text-align: center">0</td><td style="text-align: center">-</td><td style="text-align: center">400</td><td style="text-align: center">KHz</td></tr>
+</tbody></table>
+</div></div>
 <h2 id="pinout"><a class="header" href="#pinout">Pinout</a></h2>
 <div align="center">
     <div align="center"><a href="#"><img src="../resources/unit_pinout_v_0_0_1_ue0094_icp10111_barometric_pressure_sensor_en.jpg" style="max-width: 500px; height: auto;" alt="Pinout"><br/> Pinout</a></div>
     <br/>
     <br/>
     <br/>
-<div class="table-wrapper"><table><thead><tr><th>Pin Label</th><th>Function</th><th>Notes</th></tr></thead><tbody>
-<tr><td>VCC</td><td>Power Supply</td><td>3.3V or 5V</td></tr>
-<tr><td>GND</td><td>Ground</td><td>Common ground for all components</td></tr>
-</tbody></table>
-</div></div>
-<h2 id="dimensions"><a class="header" href="#dimensions">Dimensions</a></h2>
-<div align="center">
-<div align="center"><a href="../resources/unit_dimension_v_1_0_0_ue0107_ds3231_rtc_module.png"><img src="../resources/unit_dimension_v_1_0_0_ue0107_ds3231_rtc_module.png" style="max-width: 500px; height: auto;" alt="Dimensions"><br/> Dimensions</a></div>
+</div>
+<h2 id="pin--connector-layout"><a class="header" href="#pin--connector-layout">Pin &amp; Connector Layout</a></h2>
+<div>
+| Pin   | Voltage Level | Function                                                  |
+|-------|---------------|-----------------------------------------------------------|
+| VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
+| GND   | 0 V           | Common reference for power and signals.                   |
+| SDA   | 1.8 V to VCC  | Serial data line for I²C communications.                  |
+| SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
+<blockquote>
+<p><strong>Note:</strong> The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.</p>
+</blockquote>
 </div>
 <h2 id="topology"><a class="header" href="#topology">Topology</a></h2>
-<div align="center">
 <div align="center">
 <div align="center"><a href="../resources/unit_topology_v_1_0_0_ue0107_ds3231_rtc_module.png"><img src="../resources/unit_topology_v_1_0_0_ue0107_ds3231_rtc_module.png" style="max-width: 500px; height: auto;" alt="Topology"><br/> Topology</a></div>
 <br/>
@@ -210,24 +231,13 @@
 <tr><td>J3</td><td>Battery Connector</td></tr>
 </tbody></table>
 </div></div>
-<h2 id="pin--connector-layout"><a class="header" href="#pin--connector-layout">Pin &amp; Connector Layout</a></h2>
-<div class="table-wrapper"><table><thead><tr><th>Pin</th><th>Voltage Level</th><th>Function</th></tr></thead><tbody>
-<tr><td>VCC</td><td>3.3 V – 5.5 V</td><td>Provides power to the on-board regulator and sensor core.</td></tr>
-<tr><td>GND</td><td>0 V</td><td>Common reference for power and signals.</td></tr>
-<tr><td>SDA</td><td>1.8 V to VCC</td><td>Serial data line for I²C communications.</td></tr>
-<tr><td>SCL</td><td>1.8 V to VCC</td><td>Serial clock line for I²C communications.</td></tr>
-</tbody></table>
+<h2 id="dimensions"><a class="header" href="#dimensions">Dimensions</a></h2>
+<div align="center">
+<div align="center"><a href="../resources/unit_dimension_v_1_0_0_ue0107_ds3231_rtc_module.png"><img src="../resources/unit_dimension_v_1_0_0_ue0107_ds3231_rtc_module.png" style="max-width: 500px; height: auto;" alt="Dimensions"><br/> Dimensions</a></div>
 </div>
-<blockquote>
-<p><strong>Note:</strong> The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.</p>
-</blockquote>
-<h2 id="functional-description"><a class="header" href="#functional-description">Functional Description</a></h2>
-<p>{{functional_description}}</p>
-<h2 id="applications"><a class="header" href="#applications">Applications</a></h2>
-<p>{{applications_list}}</p>
 <h1 id="references"><a class="header" href="#references">References</a></h1>
 <ul>
-<li><a href="%7B%7Bdatasheet_url%7D%7D">{{datasheet_name}}</a></li>
+<li><a href="https://www.analog.com/media/en/technical-documentation/data-sheets/ds3231.pdf"> DS3231 </a></li>
 </ul>
 
                     </main>
@@ -238,7 +248,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next prefetch" href="../hardware/pinout.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../hardware/technical-specifications.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -252,7 +262,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next prefetch" href="../hardware/pinout.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../hardware/technical-specifications.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>

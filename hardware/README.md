@@ -42,9 +42,9 @@
 
 </div>
 
-## Pin & Connector Layout
+### Pin & Connector Layout
 
-<div>
+<div align="center">
  
 | Pin   | Voltage Level | Function                                                  |
 |-------|---------------|-----------------------------------------------------------|

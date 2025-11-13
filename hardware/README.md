@@ -45,6 +45,7 @@
 ## Pin & Connector Layout
 
 <div>
+ 
 | Pin   | Voltage Level | Function                                                  |
 |-------|---------------|-----------------------------------------------------------|
 | VCC   | 3.3 V – 5.5 V | Provides power to the on-board regulator and sensor core. |
@@ -53,6 +54,7 @@
 | SCL   | 1.8 V to VCC  | Serial clock line for I²C communications.                 |
 
 > **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
+> 
 </div>
 
 ## Topology

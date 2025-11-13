@@ -34,16 +34,16 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 
 ## Overview
 
-| Feature                                         | Description                                                                                  |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------|
-| INT Pin interrupt                              | Provides alarms and square wave output functionality                                         |
-| Battery backup input                           | Ensures continuous timekeeping during power loss                                             |
-| I2C interface                                  | Enables easy communication with microcontrollers and embedded systems                        |
-| Temperature-compensated crystal oscillator (TCXO) | Maintains high accuracy across varying environmental conditions                              |
-| Low power consumption                          | Suitable for battery-powered and energy-efficient applications                               |
-| 32.768 kHz output                              | Offers external timing signal for other devices                                              |
-| Multiple timekeeping formats                   | Supports both 12-hour and 24-hour timekeeping modes                                          |
-
+| Feature                                           | Description                                                           |
+|---------------------------------------------------|-----------------------------------------------------------------------|
+| INT Pin interrupt                                 | Provides alarms and square wave output functionality                  |
+| Battery backup input                              | Ensures continuous timekeeping during power loss                      |
+| I2C interface                                     | Enables easy communication with microcontrollers and embedded systems |
+| Temperature-compensated crystal oscillator (TCXO) | Maintains high accuracy across varying environmental conditions       |
+| Low power consumption                             | Suitable for battery-powered and energy-efficient applications        |
+| 32.768 kHz output                                 | Offers external timing signal for other devices                       |
+| Multiple timekeeping formats                      | Supports both 12-hour and 24-hour timekeeping modes                   |
+| I2C Address |  0x68
 
 
 ## Typical Applications

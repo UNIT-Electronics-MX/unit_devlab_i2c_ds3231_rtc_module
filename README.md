@@ -23,7 +23,7 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 ### Quick Setup
 
 
-[<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](#)
+[<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](https://wiki.uelectronics.com/wiki/unit_devlab_i2c_ds3231_rtc_module)
 [<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
 [<img src="https://img.shields.io/badge/Buy%20Now-orange?style=for-the-badge" alt="Buy Now">](https://uelectronics.com/)
 [<img src="https://img.shields.io/badge/Getting%20Started-purple?style=for-the-badge" alt="Getting Started">](#)
@@ -58,7 +58,7 @@ DS3231 is a high-precision real-time clock (RTC) module that provides accurate t
 
 ## Resources
 
-- [Product Wiki](#)
+- [Product Wiki](https://wiki.uelectronics.com/wiki/unit_devlab_i2c_ds3231_rtc_module)
 - [Datasheet](#)
 - [Buy Now](https://uelectronics.com/)
 - [Getting Started Guide](#)

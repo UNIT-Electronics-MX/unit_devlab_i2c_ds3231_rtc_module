@@ -16,9 +16,10 @@ const int SET_SECOND = 0;
 const bool FORCE_SET_TIME_ON_BOOT = false;
 
 void printNow(const DateTime& now) {
-  Serial.printf("%04d-%02d-%02d %02d:%02d:%02d\n",
+  Serial.printf("%04d-%02d-%02d %02d:%02d:%02d",
                 now.year(), now.month(), now.day(),
                 now.hour(), now.minute(), now.second());
+  Serial.println();
 }
 
 
@@ -46,7 +47,7 @@ void setup() {
     Serial.println("RTC initialized");
   }
 
-  Serial.print("RTC OK: ");
+  Serial.print("------ RTC OK: ");
   printNow(rtc.now());
 }
 

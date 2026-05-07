@@ -34,7 +34,7 @@
 ## Pinout
 
 <div align="center">
-    <a href="#"><img src="resources/unit_pinout_v_0_0_1_ue0094_icp10111_barometric_pressure_sensor_en.jpg" width="500px"><br/>Pinout</a>
+    <a href="unit_pinout_v_1_0_0_ue0108_ds3231_rtc_module_en.pdf"><img src="resources/unit_pinout_v_1_0_0_ue0108_ds3231_rtc_module_en_2026-05-07_page_1.png" width="500px"><br/>Pinout</a>
     <br/>
     <br/>
     <br/>
